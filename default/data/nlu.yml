@@ -1,0 +1,29 @@
+version: "3.1"
+
+nlu:
+- intent: intro
+  examples: |
+    - This is Mike from at and T, Inc
+    
+
+- intent: purpose
+  examples: |
+    - There will be a monthly rental which you will have to pay like any other postpaid connection
+    
+
+- intent: offer
+  examples: |
+    - How would you like a postpaid connection that allows you to make free, unlimited voice calls to three at and T numbers
+    
+
+- intent: intro
+  examples: |
+    - This is Mike from at and T, Inc [Mike] (caller_name)
+    - This is Mike from at and T, Inc [at and T, Inc] (company)
+
+- intent: purpose
+  examples: |
+    - There will be a monthly rental which you will have to pay like any other postpaid connection [postpaid connection] (product) 
+    - you have been using our prepaid connection for a couple of years now [prepaid connection] (product)
+
+

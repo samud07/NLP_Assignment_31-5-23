@@ -1,5 +1,12 @@
-
-confidence": 0.574241578578949
+2023-05-31 14:14:56 INFO     rasa.core.processor  - Loading model models\nlu-20230531-140835-several-fossil.tar.gz...
+NLU model loaded. Type a message and press enter to parse it.
+Next message:
+  Hello? Hi, Nancy. This is Mike from at and T, Inc.
+{
+  "text": "Hello? Hi, Nancy. This is Mike from at and T, Inc.",
+  "intent": {
+    "name": "intro",
+    "confidence": 0.9999980926513672
   },
   "entities": [],
   "text_tokens": [
@@ -14,98 +21,52 @@ confidence": 0.574241578578949
     [
       11,
       16
-    ]
-  ],
-  "intent_ranking": [
-    {
-      "name": "purpose",
-      "confidence": 0.574241578578949
-    },
-    {
-      "name": "intro",2023-05-31 14:14:56 INFO     rasa.core.processor  - Loading model models\nlu-20230531-140835-several-fossil.tar.gz...
-NLU model loaded. Type a message and press enter to parse it.
-Next message:
-Hello? Hi, Nancy. 
-{
-  "text": "Hello? Hi, Nancy.",
-  "intent": {
-    "name": "purpose",
-    "
-      "confidence": 0.4257459342479706
-    },
-    {
-      "name": "offer",
-      "confidence": 1.2518335097411182e-05
-    }
-  ],
-  "response_selector": {
-    "all_retrieval_intents": [],
-    "default": {
-      "response": {
-        "responses": null,
-        "confidence": 0.0,
-        "intent_response_key": null,
-        "utter_action": "utter_None"
-      },
-      "ranking": []
-    }
-  }
-}
-Next message:
-This is Mike from at and T, Inc.
-{
-  "text": "This is Mike from at and T, Inc.",
-  "intent": {
-    "name": "intro",
-    "confidence": 0.9999996423721313
-  },
-  "entities": [],
-  "text_tokens": [
-    [
-      0,
-      4
-    ],
-    [
-      5,
-      7
-    ],
-    [
-      8,
-      12
-    ],
-    [
-      13,
-      17
     ],
     [
       18,
-      20
+      22
     ],
     [
-      21,
-      24
+      23,
+      25
     ],
     [
-      25,
-      26
+      26,
+      30
     ],
     [
-      28,
-      31
+      31,
+      35
+    ],
+    [
+      36,
+      38
+  ],
+    [
+      39,
+      42
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      46,
+      49
     ]
   ],
   "intent_ranking": [
     {
       "name": "intro",
-      "confidence": 0.9999996423721313
+      "confidence": 0.9999980926513672
     },
     {
       "name": "purpose",
-      "confidence": 3.219624318262504e-07
+      "confidence": 1.8320597519050352e-06
     },
     {
       "name": "offer",
-      "confidence": 4.570907563561377e-08
+      "confidence": 1.2339384625192906e-07
     }
   ],
   "response_selector": {
@@ -121,6 +82,7 @@ This is Mike from at and T, Inc.
     }
   }
 }
+    
 Next message:
 Yes, how can I help you?
 {
@@ -722,48 +684,6 @@ Fantastic.
     {
       "name": "offer",
       "confidence": 9.011965573790803e-08
-    }
-  ],
-  "response_selector": {
-    "all_retrieval_intents": [],
-    "default": {
-      "response": {
-        "responses": null,
-        "confidence": 0.0,
-        "intent_response_key": null,
-        "utter_action": "utter_None"
-      },
-      "ranking": []
-    }
-  }
-}
-Next message:
-
-{
-  "text": "",
-  "intent": {
-    "name": "intro",
-    "confidence": 0.999963641166687
-  },
-  "entities": [],
-  "text_tokens": [
-    [
-      0,
-      0
-    ]
-  ],
-  "intent_ranking": [
-    {
-      "name": "intro",
-      "confidence": 0.999963641166687
-    },
-    {
-      "name": "purpose",
-      "confidence": 3.6381468817126006e-05
-    },
-    {
-      "name": "offer",
-      "confidence": 6.315296730008413e-09
     }
   ],
   "response_selector": {

@@ -1,0 +1,37 @@
+Task 1: Download and transcribe the given the audio file using Speech-to-Text recognition.
+
+Solution : 
+
+Transcript
+
+Hello? Hi, Nancy. This is Mike from at and T, Inc. Yes, how can I help you? Nancy, you have been using our prepaid connection for a couple of years now, right? Yeah, that's right.
+
+How would you like a postpaid connection that allows you to make free, unlimited voice calls to three at and T numbers? I would love that, but what's the catch? There's no catch. There will be a monthly rental which you will have to pay like any other postpaid connection. Fantastic.
+
+Sign me up.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Task 2: Train an NLU model to classify intents and recognize entities.
+
+Solution : data file contains the info of trained data. 
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Task 3: Separate the sentences in the output of task 1. On each sentence, apply the
+model trained in task 2 to classify its intent and recognize the entities present in it.
+
+Solution : output.json file contains the output of the trained data.
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Task 4: For the whole text generated from the audio file generate a summary report.
+
+Summarization
+
+- You can make free, unlimited voice calls to three at and T numbers. 
+  There will be a monthly rental which you will have to pay like any other postpaid connection. Fantastic. Sign me up.
+
+
+
+
